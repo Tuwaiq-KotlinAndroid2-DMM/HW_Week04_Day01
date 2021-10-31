@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#737778">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="20dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="381dp"
+            android:layout_height="280dp"
+            android:background="#3E4243"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/carName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="@string/title"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="#FFFFFF" />
+
+            <!-- Buttons -->
+
+            <ImageView
+                android:id="@+id/imageViewCar"
+                android:layout_width="372dp"
+                android:layout_height="188dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/rec" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:padding="16dp">
+
+                <!-- Title, secondary and supporting text -->
+
+                <TextView
+                    android:id="@+id/textViewPrice"
+                    android:layout_width="56dp"
+                    android:layout_height="25dp"
+                    android:fontFamily="serif"
+                    android:text="Price"
+                    android:textColor="#F4F2F2"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/year"
+                    android:layout_width="46dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/year"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/textViewYear"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="81dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/pricee"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="#FBFBFB"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/textViewPrice"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_width="45dp"
+                    android:layout_height="23dp"
+                    android:layout_marginStart="109dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="serif"
+                    android:text="Year"
+                    android:textColor="#FFFEFE"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@+id/price"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

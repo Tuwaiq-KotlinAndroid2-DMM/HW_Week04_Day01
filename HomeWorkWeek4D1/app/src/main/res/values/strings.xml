@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HomeWorkWeek4D1</string>
+    <string name="title">title</string>
+    <string name="secondary_text">secondary_text</string>
+    <string name="supporting_text">supporting_text</string>
+    <string name="price">Price</string>
+    <string name="year">year</string>
+    <string name="pricee">price</string>
+</resources>
