@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="bmwimg">https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/home/720x720_New_7_Series.jpg.grp-transform/small/720x720_New_7_Series.jpg</string>
+    <string name="jaguarimg">https://aaaautoeuimg.vshcdn.net/cool/700095050_4_640x480x95.jpg?67766</string>
+    <string name="Ximg">https://www.tesla.com/sites/default/files/images/homepage/home-hero-modelx-mobile.jpg?20160804</string>
+    <string name="AMimg">http://cdn.astonmartin.com/sitefinity-dealerwebsites/uk/dbs-banner_mobile.jpg?sfvrsn=0</string>
+    <string name="Aston"><![CDATA[https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-aston-martin-dbs-superleggera-volante-1-1556031727.jpg?crop=0.731xw:0.548xh;0.252xw,0.304xh&resize=1200:*]]></string>
+    <string name="bmw"><![CDATA[https://images.unsplash.com/photo-1593460354583-4224ab273cfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80]]></string>
+    <string name="deville">https://www.nsclassics.com/galleria_images/2921/2921_p2_l.jpg</string>
+    <string name="cady">https://static.wheels.ae/imgs/684_WH_160802_MW_tariq_AIZA-_9_-_Read-Only_-medium.jpg</string>
+</resources>
