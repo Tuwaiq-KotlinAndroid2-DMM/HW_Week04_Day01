@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolore"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewBrandCar"
+        android:layout_width="247dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="30dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewPhotoUrl"
+        android:layout_width="331dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBrandCar"
+        app:layout_constraintVertical_bias="0.142"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView2priceOfCar"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="68dp"
+        android:text="Price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPhotoUrl" />
+
+    <TextView
+        android:id="@+id/textView3YearOfCar"
+        android:layout_width="94dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="45dp"
+        android:text="Year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPhotoUrl" />
+
+    <TextView
+        android:id="@+id/textView4MonyOfPrice"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="84dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2priceOfCar" />
+
+    <TextView
+        android:id="@+id/textView5NumOfYear"
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="45dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3YearOfCar" />
+</androidx.constraintlayout.widget.ConstraintLayout>
