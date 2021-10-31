@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Day16HW</string>
+    <string name="car_title_en">Car brand - model</string>
+    <string name="price_hint_en">Price: $$$</string>
+    <string name="year_hint_en">year: yyyy</string>
+    <string name="carName1">BMW M3</string>
+    <string name="carURL1">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/2018_BMW_M3_3.0.jpg/560px-2018_BMW_M3_3.0.jpg</string>
+    <string name="carName2">Ford Mustang</string>
+    <string name="carURL2">https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ford_Mustang_%281964%29_-_28540253076.jpg/560px-Ford_Mustang_%281964%29_-_28540253076.jpg</string>
+    <string name="carName3">Porsche 911</string>
+    <string name="carURL3">https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Porsche_911_No_1000000%2C_70_Years_Porsche_Sports_Car%2C_Berlin_%281X7A3888%29.jpg/560px-Porsche_911_No_1000000%2C_70_Years_Porsche_Sports_Car%2C_Berlin_%281X7A3888%29.jpg</string>
+    <string name="carName4">Tesla Model S</string>
+    <string name="carURL4">https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2018_Tesla_Model_S_75D.jpg/560px-2018_Tesla_Model_S_75D.jpg</string>
+    <string name="carName5">Mazda RX-8</string>
+    <string name="carURL5">https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2006_Mazda_RX-8_2.6.jpg/560px-2006_Mazda_RX-8_2.6.jpg</string>
+    <string name="carName6">Toyota Camry</string>
+    <string name="carURL6">https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg/560px-2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg</string>
+</resources>
